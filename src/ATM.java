@@ -184,10 +184,10 @@ public class ATM extends javax.swing.JFrame {
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         z=JOptionPane.showConfirmDialog(null,"Cara Mengoperasikan Mesin ATM\n"
-                + "[1] Masukkan PIN dengan benar dan tepat\n"
-                + "[2] Lakukan transaksi sesuai dengan opsi yang ada\n"
-                + "[3] Ambillah uang dengan secukupnya jangan berlebih","INFO PENTING",
-                JOptionPane.YES_NO_OPTION, 3); 
+                + "[1] Masukkan PIN dengan benar\n"
+                + "[2] Bertransaksilah sesuai dengan opsi yang ada\n"
+                + "[3] Gunakan uang anda dengan cermat","INFO",
+                JOptionPane.YES_NO_OPTION, 3); //konfirmasi transaksi lain
             if (z==0)
             {
                 this.setVisible(true);
