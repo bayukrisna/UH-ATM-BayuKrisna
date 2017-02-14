@@ -183,7 +183,20 @@ public class ATM extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
+        z=JOptionPane.showConfirmDialog(null,"Cara Mengoperasikan Mesin ATM\n"
+                + "[1] Masukkan PIN dengan benar\n"
+                + "[2] Bertransaksilah sesuai dengan opsi yang ada\n"
+                + "[3] Gunakan uang anda dengan cermat","INFO",
+                JOptionPane.YES_NO_OPTION, 3); //konfirmasi transaksi lain
+            if (z==0)
+            {
+                this.setVisible(true);
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(null,"Terimakasih telah menggunakan ATM BAYKRIS, ambil kartu ATM Anda.");
+                System.exit(0);
+            }        // TODO add your handling code here:
     }//GEN-LAST:event_jButton9ActionPerformed
 
     /**
