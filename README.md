@@ -11,7 +11,7 @@ UH ATM
 
 ### C. Screenshot
 #### Tampilan dari frame login. Saat user klik button "cek" dengan password yang benar maka akan diteruskan ke frame selanjutnya.
-![1.png](https://s31.postimg.org/xl0pl7r97/login1.png)
+![1.png](https://s22.postimg.org/ljku86ksx/login.png)
 
 #### Tampilan dari menu utama. Disini user dapat memilih opsi yang sudah disediakan.
 ![1.png](https://s8.postimg.org/s6swpxi91/menu.png)
@@ -28,6 +28,6 @@ UH ATM
 ![1.2.png](https://s16.postimg.org/czj2r7qit/tarik2.png)
 
 ### Jika di klik "How to use it", maka akan ditampilkan langkah - langkah cara menggunakan mesin atm.
-![1.2.png](https://s22.postimg.org/71qwfl175/info.png)
+![1.2.png](https://s18.postimg.org/5ytix1g09/info.png)
 
 ### Jika di klik exit, maka program akan keluar atau berhenti.
